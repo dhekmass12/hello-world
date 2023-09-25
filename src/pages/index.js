@@ -4,7 +4,7 @@ export default function Layout({ children }) {
     return (
         <>
             <main>
-                Hello World!
+                Hello {process.env.NEXT_PUBLIC_HELLO}.
             </main>
         </>
     )
